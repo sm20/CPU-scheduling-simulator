@@ -9,6 +9,6 @@ provides statistics on process waiting time.
 INSTRUCTIONS  
 
 1. compile: g++ scheduler.cpp  
-2. If simulating RR run: ./a.out &lt;text file> RR <quantum>  
+2. If simulating RR run: ./a.out &lt;text file> RR &lt;quantum>  
     -Where text file is the process description file  and quantum is an integer time slice-  
 3. If simulating SJF run: ./a.out <text file> SJF
